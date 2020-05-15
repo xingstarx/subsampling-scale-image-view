@@ -2,10 +2,11 @@ package com.davemorrissey.labs.subscaleview.helper;
 
 import android.view.View;
 
-import static cc.shinichi.library.view.nine.AnimatorProxy.NEEDS_PROXY;
-import static cc.shinichi.library.view.nine.AnimatorProxy.wrap;
+import static com.davemorrissey.labs.subscaleview.helper.AnimatorProxy.NEEDS_PROXY;
+import static com.davemorrissey.labs.subscaleview.helper.AnimatorProxy.wrap;
 
 public final class ViewHelper {
+
     private ViewHelper() {
     }
 
