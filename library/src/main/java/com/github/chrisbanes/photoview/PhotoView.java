@@ -21,7 +21,6 @@ import android.graphics.RectF;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.support.annotation.NonNull;
-import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -32,7 +31,7 @@ import android.widget.ImageView;
  * is accomplished
  */
 @SuppressWarnings("unused")
-public class PhotoView extends AppCompatImageView {
+public class PhotoView extends ImageView {
 
     private PhotoViewAttacher attacher;
     private ImageView.ScaleType pendingScaleType;
