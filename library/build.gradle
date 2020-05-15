@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
-group = 'com.davemorrissey.labs'
-archivesBaseName = 'subsampling-scale-image-view'
-version = '3.10.0'
+//group = 'com.davemorrissey.labs'
+//archivesBaseName = 'subsampling-scale-image-view'
+//version = '3.10.0'
 
 android {
     compileSdkVersion 27
@@ -34,4 +34,4 @@ task javadoc(type: Javadoc) {
     options.links = ['https://developer.android.com/reference/']
 }
 
-apply from: rootProject.file('release.gradle')
+//apply from: rootProject.file('release.gradle')
